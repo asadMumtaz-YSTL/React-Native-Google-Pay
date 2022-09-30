@@ -1,0 +1,6 @@
+module Pods_googlepay_googlepayTests {
+  umbrella header "Pods-googlepay-googlepayTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

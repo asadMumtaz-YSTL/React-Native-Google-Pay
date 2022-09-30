@@ -1,0 +1,120 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.googlepay"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
+13-->[com.facebook.flipper:flipper:0.99.0] /Users/asadmumtaz/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.99.0] /Users/asadmumtaz/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:15.0.1] /Users/asadmumtaz/.gradle/caches/transforms-3/df8b71de6d6b3918c651d3fca8683855/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:15.0.1] /Users/asadmumtaz/.gradle/caches/transforms-3/df8b71de6d6b3918c651d3fca8683855/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:23:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:15.0.1] /Users/asadmumtaz/.gradle/caches/transforms-3/df8b71de6d6b3918c651d3fca8683855/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:15.0.1] /Users/asadmumtaz/.gradle/caches/transforms-3/df8b71de6d6b3918c651d3fca8683855/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:15.0.1] /Users/asadmumtaz/.gradle/caches/transforms-3/df8b71de6d6b3918c651d3fca8683855/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:28:9-32
+19
+20    <application
+20-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:6:5-41:19
+21        android:name="com.googlepay.MainApplication"
+21-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:7:7-38
+22        android:allowBackup="false"
+22-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:11:7-34
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.5.0] /Users/asadmumtaz/.gradle/caches/transforms-3/5646db46e2cfb43e7b3d42f3054c498c/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:9:7-41
+26        android:label="@string/app_name"
+26-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:8:7-39
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:10:7-52
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme"
+29-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:12:7-38
+30        android:usesCleartextTraffic="true" >
+30-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/debug/AndroidManifest.xml:8:9-44
+31        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+31-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/debug/AndroidManifest.xml:11:9-86
+31-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/debug/AndroidManifest.xml:11:19-83
+32        <!-- Keep it false in production environment -->
+33        <meta-data
+33-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:14:1-16:23
+34            android:name="com.phonepe.android.sdk.Debuggable"
+34-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:15:1-50
+35            android:value="true" /> <!-- Keep it false in production environment -->
+35-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:16:1-21
+36        <meta-data
+36-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:19:1-21:23
+37            android:name="com.phonepe.android.sdk.isUAT"
+37-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:20:1-45
+38            android:value="true" /> <!-- Get the App Id from PhonePe -->
+38-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:21:1-21
+39        <meta-data
+39-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:24:1-26:23
+40            android:name="com.phonepe.android.sdk.AppId"
+40-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:25:1-45
+41            android:value="kmkm" />
+41-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:26:1-21
+42        <meta-data
+42-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:27:7-29:30
+43            android:name="com.google.android.gms.wallet.api.enabled"
+43-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:28:7-63
+44            android:value="true" />
+44-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:29:7-27
+45
+46        <activity
+46-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:30:7-40:18
+47            android:name="com.googlepay.MainActivity"
+47-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:31:9-37
+48            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+48-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:33:9-86
+49            android:label="@string/app_name"
+49-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:32:9-41
+50            android:launchMode="singleTask"
+50-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:34:9-40
+51            android:windowSoftInputMode="adjustResize" >
+51-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:35:9-51
+52            <intent-filter>
+52-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:36:9-39:25
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:37:13-65
+53-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:37:21-62
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:38:13-73
+55-->/Applications/YSTL_DATA/POC/React-Native-Google-Pay/android/app/src/main/AndroidManifest.xml:38:23-70
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->[com.google.android.gms:play-services-base:15.0.1] /Users/asadmumtaz/.gradle/caches/transforms-3/777bf789c6c9c8fdfa151efacde0381b/transformed/jetified-play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+59            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+59-->[com.google.android.gms:play-services-base:15.0.1] /Users/asadmumtaz/.gradle/caches/transforms-3/777bf789c6c9c8fdfa151efacde0381b/transformed/jetified-play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+60            android:exported="false"
+60-->[com.google.android.gms:play-services-base:15.0.1] /Users/asadmumtaz/.gradle/caches/transforms-3/777bf789c6c9c8fdfa151efacde0381b/transformed/jetified-play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->[com.google.android.gms:play-services-base:15.0.1] /Users/asadmumtaz/.gradle/caches/transforms-3/777bf789c6c9c8fdfa151efacde0381b/transformed/jetified-play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+62
+63        <meta-data
+63-->[com.google.android.gms:play-services-basement:15.0.1] /Users/asadmumtaz/.gradle/caches/transforms-3/38bc6e5d1be19a568e7fc692aaeecaf9/transformed/jetified-play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+64            android:name="com.google.android.gms.version"
+64-->[com.google.android.gms:play-services-basement:15.0.1] /Users/asadmumtaz/.gradle/caches/transforms-3/38bc6e5d1be19a568e7fc692aaeecaf9/transformed/jetified-play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+65            android:value="@integer/google_play_services_version" />
+65-->[com.google.android.gms:play-services-basement:15.0.1] /Users/asadmumtaz/.gradle/caches/transforms-3/38bc6e5d1be19a568e7fc692aaeecaf9/transformed/jetified-play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+66    </application>
+67
+68</manifest>
